@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "ES6",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "typeRoots": [
+      "src/application/types",
+      "node_modules/@types"
+    ],
+    "useUnknownInCatchVariables": false,
+    "strictPropertyInitialization": false
+  },
+  "include": [
+    "src/**/*",
+    "src/**/*.json",
+    ".eslintrc.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "jest.config.js"
+  ]
+}

@@ -22,7 +22,7 @@
     "strictPropertyInitialization": false
   },
   "include": [
-    "src/**/*",
+    "src/*",
     "src/**/*.json",
     ".eslintrc.js"
   ],

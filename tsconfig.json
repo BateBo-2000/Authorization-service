@@ -25,7 +25,7 @@
     "src/*",
     "src/**/*.json",
     ".eslintrc.js"
-  ],
+, "src/infrastructure/ConnectionPool.ts"  ],
   "exclude": [
     "node_modules",
     "dist",
